@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "biblioteca-reservas"
+version = "0.1.0"
+description = ""
+authors = ["RicardoStiven <ricardo_sti.gonzalez@uao.edu.co>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest = "^8.2.1"
+coverage = "^7.5.2"
+pytest-qt = "^4.4.0"
+pre-commit = "^3.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
